@@ -1,0 +1,63 @@
+@import url('./register-nav.css');
+
+@import url('./footer.css');
+
+
+body {
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration {
+    background-color: #dde1e7ff;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    background-color: #dde1e7ff;
+    grid-area: flex-item3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-radius);
+}
+
+.registration-form {
+    background-color: #dde1e7ff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 760;
+
+
+}
+
+.registration-form input {
+    display: flex;
+    margin-left: 600px;
+}
+
+.registration-form label {
+    margin-left: 600px;
+}
+
+.submit-button {
+background-color: #ba92c1;
+padding: 12px 10px;
+border-radius: 8px;
+font-size: 1.18rem;
+margin-left: 600px;
+
+}
+@media only screen and (max-width: 550px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+        "nav"
+        "registration"
+        "footer";
+       
+    }
+  }
+  
