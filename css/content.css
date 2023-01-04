@@ -32,6 +32,7 @@
     grid-area: sidebar;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+    text-align: center;
   }
 
   .responsive {
