@@ -16,6 +16,7 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
+      "nav nav nav nav"
       "header header header sidebar"
       "logo logo logo sidebar"
       "content content content sidebar"
@@ -28,6 +29,9 @@
     
   }
 
+  .topnav {
+    grid-area: nav;
+  }
 
   .header {
     background: #d5c9e2;
