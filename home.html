@@ -8,39 +8,40 @@
     <title>
       Digigal
     </title>
-    <link rel="stylesheet" href="../css/home.css">
-    
+    <link rel="stylesheet" href="./css/home.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/eea4b23f08.js" crossorigin="anonymous">
     </script>
   </head>
   
   <body>
-    <div class="topnav">
-      <ul class="nav">
-        <li>
-          <a class="active" href="../home.html">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="popular.html">
-            Most Popular Posts
-          </a>
-        </li>
-        <li>
-          <a href="intro.html">
-          Introduction
-          </a>
-        </li>
-        <li>
-          <a href="register.html">
-            Register
-          </a>
-        </li>
-      </ul>
-    </div>
     <div class="container">
+      <div class="topnav">
+        <nav>
+          <ul>
+            <li>
+              <a class="active" href="../home.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="popular.html">
+                Most Popular Posts
+              </a>
+            </li>
+            <li>
+              <a href="intro.html">
+                Introduction
+              </a>
+            </li>
+            <li>
+              <a href="register.html">
+                Register
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <main>
         <h1>
           Main
@@ -50,7 +51,11 @@
             Digi Gal
           </u>
         </h2>
-        <p><h3>Author Sharna Olafisoye Front-End Developer OneTen-Udacity</h3></p>
+        <p>
+          <h3>
+            Author Sharna Olafisoye Front-End Developer OneTen-Udacity
+          </h3>
+        </p>
         <p>
           Lemon drops liquorice
           <em>
@@ -74,48 +79,104 @@
         </p>
       </main>
       <div id="sidebar">
-        <h1>
+        <h2>
           Sidebar
-        </h1>
+        </h2>
+        <div class="picture">
+          <figure>
+            <img src="../images/BWAvatar.png" alt="black woman with headwrap" class="avatar">
+            <figcaption>
+              Fig1. Avatar Black Woman
+            </figcaption>
+          </figure>
+          <p>
+            Author Sharna Olafisoye
+          </p>
+        </div>
+        <form>
+          <input type="text" placeholder="Search..">
+        </form>
         <a href=intro.html>
-          <strong><u>
-            Intro
-          </u></strong>
+          <strong>
+            <u>
+              Intro
+            </u>
+          </strong>
         </a>
         <a href=register.html>
-          <strong><u>
-            Register
-          </u></strong>
+          <strong>
+            <u>
+              Register
+            </u>
+          </strong>
         </a>
-        <p><u><strong>Recent Comments</strong></u></p> 
-      <p><u><strong>List of Blog Categories</strong> </u></p>
-      <p><u><strong>Upcoming Events</strong></u></p>
+        <p>
+          <u>
+            <strong>
+              Recent Comments
+            </strong>
+          </u>
+        </p>
+        <p>
+          <u>
+            <strong>
+              List of Blog Categories
+            </strong>
+          </u>
+        </p>
+        <p>
+          <u>
+            <strong>
+              Upcoming Events
+            </strong>
+          </u>
+        </p>
       </div>
       <div id="content1">
         <div>
-          <img src="../images/pcg_250x250.jpg" alt="glasses computer" class="responsive">
-          <figcaption>Fig.1 -Glass in front of computer</figcaption>
+          <img src="./images/pcg_250x250.jpg" alt="glasses computer" class="responsive">
+          <figcaption>
+            Fig.1 -Glass in front of computer
+          </figcaption>
         </div>
-        Content1
+        <h2 class="card_title">
+          90 minute Guide to Starting a Personal Blog
+        </h2>
+        <p>
+          written by Victorious Sprinkle Mayhem
+        </p>
       </div>
       <div id="content2">
         <div>
-          <img src="../images/phonepc_250x250.jpg" alt="user on phone and computer" class="responsive">
-          <figcaption>Fig.2 -Person using cellphone and computer</figcaption>
+          <img src="./images/phonepc_250x250.jpg" alt="user on phone and computer"
+          class="responsive">
+          <figcaption>
+            Fig.2 -Person using cellphone and computer
+          </figcaption>
         </div>
-        Content2
+        <h2 class="card_title">
+          What's the Udacity NanoDegree Program Like?
+        </h2>
+        <p>
+          written by Joy Bubbles Shakespeare
       </div>
       <div id="content3">
         <div>
-          <img src="../images/computerwires_1_250x250.jpg" alt="computer wires" class="responsive">
-          <figcaption>Fig.3 -Computer Tower and Monitor</figcaption>
+          <img src="./images/computerwires_1_250x250.jpg" alt="computer wires" class="responsive">
+          <figcaption>
+            Fig.3 -Computer Tower and Monitor
+          </figcaption>
         </div>
-        Content3
+        <h2 class="card_title">
+          Transistioning Into Tech with Non-traditional Backgrounds
+        </h2>
+        <p>
+          written by The Hot Frosted Salamanders
       </div>
-      <footer>
-        <h1>
+      <footer class="footer">
+        <h2>
           Footer
-        </h1>
+        </h2>
         <ul class="icons">
           <li>
             <i class="fa-brands fa-twitter">

@@ -1,5 +1,5 @@
-@import url(register-nav.css);
-@import url(footer.css);
+@import url("./register-nav.css");
+@import url("./footer.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 .header, .logo, .sidebar, .footer,.content {
@@ -91,19 +91,20 @@
     margin: 1rem;
   }
   
-  @media only screen and (max-width: 760px) {
+  @media (max-width: 760px) {
     .container {
-      grid-template-columns: 1fr;
+      grid-template-columns: 400px;
       grid-template-areas:
-        "header header"
-        "logo logo"
-        "sidebar sidebar"
-        "content content"
-        "footer footer";
+        "nav"
+        "header"
+        "logo"
+        "sidebar"
+        "content"
+        "footer";
     }
   }  
 
-@media only screen and (max-width: 760px) {
+@media (max-width: 760px) {
   .nav {
     text-align: center;
     width: 90%;
@@ -121,5 +122,28 @@
     padding-inline-start: 40px;
     flex-direction: column;
   }
+} 
+
+.nav li {
+  margin-left: 0;
+
 }
 
+.topnav {
+  padding: 0;
+}
+
+/* tablet */
+
+@media (min-width: 761px) and (max-width:1024px) {
+  .container {
+    grid-template-columns: 400px;
+    grid-template-areas:
+      "nav nav"
+      "header header"
+      "logo logo"
+      "sidebar sidebar"
+      "content content"
+      "footer footer";
+  }
+}

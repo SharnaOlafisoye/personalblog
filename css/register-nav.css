@@ -8,22 +8,60 @@
     color:black;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-}
+    grid-area: nav;
+    }
 
 .nav a {
     text-decoration: none;
     display: block;
-   }
+    }
 
-.nav {
+.nav  {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    
+    display: flex;   
 }
 
 .nav li {
     margin-left: 25px;
+    list-style: none;
 }
 
+nav ul {
+    padding: 10px;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.nav ul li {
+    padding: 10 px 20 px;
+}
+
+@media (max-width: 768px) {
+    label {
+        width: 15%;
+}
+}
+
+@media (max-width: 768px) {
+    input {
+    width: 10%
+}
+}
+
+
+@media (max-width: 768px) {
+    form {
+        width: 25%
+    }
+}
+
+@media (max-width: 768px) {
+    .registration-form {
+        display: flex;
+    }
+}
