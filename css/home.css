@@ -59,8 +59,20 @@ nav ul {
     width: 300px;
 }
 
-@media (max-width: 400px) {
-
+@media only screen and (max-width: 768px) {
+nav {
+    grid-template-columns: 1fr;
+}
+nav li {
+    width: 100%;
+}
 }
 
-
+@media only screen and (min-width: 600px) {
+nav {
+    grid-template-columns: repeat(2, 1fr);
+}
+nav li {
+    width: 50%;
+}
+}

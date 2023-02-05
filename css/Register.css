@@ -58,5 +58,18 @@ margin-left: 600px;
         "registration"
         "footer";
     }
-  }
+    }
   
+    @media only screen and (max-width: 550px) {
+    .registration-form input,
+    .registration-form label,
+    .submit-button {
+    margin-left: 0;
+    text-align: center;
+    }
+  
+    .registration-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    }
